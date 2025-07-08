@@ -41,6 +41,10 @@ background-size: cover;
         width: 270px;
         height: 350px;
     }
+    .image-marque{
+        width: 120px;
+        height: 70px;
+    }
 .collections .nav-pills  .nav-link{
         background-color:transparent;
         color: #ccc8c8;
