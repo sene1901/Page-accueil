@@ -1,0 +1,53 @@
+.imgs
+{
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+.hr
+{
+    width: 190px;
+}
+.fo
+{
+    width: 190px;
+}
+.imgs:hover {
+  transform: scale(1.05);
+}
+.pov{
+    height: 600px;
+  
+}
+.log
+{
+    width: 150px;
+}
+.trend
+{
+    height: 400px;
+}
+.low
+{
+    width: 200px;
+    height: 300px;
+        transition: transform 0.3s ease;
+
+}
+.low:hover
+{
+    transform: scale(1.05);
+}
+.mi{
+    margin-top: -25px;
+}
+
+@media screen and (max-width: 720px) {
+    .trend {
+        height: 600px;
+    }
+    .pov{
+    height: 900px;
+  
+}
+
+}
